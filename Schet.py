@@ -111,6 +111,7 @@ def sverka():
                 if("ой" not in i14):
                     if("ая" not in i14):
                         arrayitog.append(i14)
+    print("Слева: количсетво повторений, справо: название продукта")
     for i15 in arrayitog:
         print(arrayitog[len(arrayitog) - 1 - arrayitog.index(i15)])
 sverka()
