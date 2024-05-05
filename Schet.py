@@ -101,8 +101,8 @@ def sverka():
                     val3 = array10[array10.index(i9)]
                     array10[array10.index(i9)] = array10[0]
                     array10[0] = val3
-    # for i in array10:
-    #     print(array10[len(array10) - 1 - array10.index(i)]) #ВМЕСТЕ С ПРИЛАГАТЕЛЬНЫМИ
+    for i in array10:
+        print(array10[len(array10) - 1 - array10.index(i)]) #ВМЕСТЕ С ПРИЛАГАТЕЛЬНЫМИ
     #print(sum)
     # ДЕЛАЕМ ПРОВЕРКУ НА ПРИЛАГАТЕЛЬНЫЕ:
     arrayitog = []
